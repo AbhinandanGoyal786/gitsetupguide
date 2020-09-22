@@ -1,0 +1,10 @@
+If u want to create a new branch then follow below steps:
+1)Open Git Bash.
+2)For Create New branch using this command.
+	git checkout -b new_branch_name
+does not touch your local changes. 
+It just creates the branch from the current HEAD and sets the HEAD there. So I guess that's what you want.
+3)if u want to any change /add file/ delete file in branch then do it with same procedure. and commit it into branch.
+  git add .
+  git commit -m "message"
+  git push origin new_branch_name
